@@ -1,0 +1,14 @@
+# Write a Python script to create a list of first N even natural numbers
+
+naturalNum=[]
+n=int(input("Enter any number : "))
+count=1
+num=1
+while(count<=n):
+    if(num%2==0):
+        count=count+1
+        naturalNum.append(num)
+        num=num+1
+    else:
+        num=num+1
+print(naturalNum)
